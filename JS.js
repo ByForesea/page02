@@ -1,4 +1,8 @@
+window.addEventListener('load', () =>{
+  const preload=document.querySelector('.preload');
+  preload.classList.add('preload-finish');
 
+});
 
 var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {

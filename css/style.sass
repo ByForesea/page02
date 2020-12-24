@@ -81,6 +81,7 @@ body::-webkit-scrollbar
   background-color: rgba(0, 0, 0, 0.9)
   overflow-x: hidden
   transition: 0.5s
+  z-index: 350
 
 .overlay-content
   position: relative
@@ -89,6 +90,7 @@ body::-webkit-scrollbar
   text-align: center
   margin-top: 30px
   font-family: 'Noto Sans TC', sans-serif
+  
 
 .overlay
   a
@@ -227,6 +229,7 @@ h4
 
   100%
     transform: scaleY(1)
+    
 
 .net
   position: absolute
@@ -844,6 +847,11 @@ h4
   text-align: center
   line-height: 60px
   position: relative
+  box-shadow: 6px 6px #027575
+  transition: 0.2s ease
+  transform-origin: center center
+
+
 
 .c2
   background-color: #e7a854
@@ -854,14 +862,24 @@ h4
   text-align: center
   line-height: 60px
   position: relative
+  box-shadow: 6px 6px #db9b48
+  transition: 0.2s ease
+  transform-origin: center center
+
 
 .c1:hover
-  background-color: transparent
+  background-color: #0a8f8f
   cursor: pointer
+  box-shadow: 3px 3px #027575
+  width: 248px
+  height: 248px
 
 .c2:hover
-  background-color: transparent
+  background-color: #f0b05e
   cursor: pointer
+  box-shadow: 3px 3px #db9b48
+  width: 248px
+  height: 248px
 
 .circle p
   width: 300px
@@ -1188,6 +1206,12 @@ h4
 .box6 p
   font-size: 1.5em
   color: #000
+
+.fishname
+  position: absolute
+  bottom: 10%
+  width: 500px
+  margin:0 auto
 
 .box6 img
   position: absolute
